@@ -1,0 +1,38 @@
+# Data Engineering Project Requirements
+# PySpark and Data Processing Dependencies
+
+# Core PySpark
+pyspark==3.5.0
+py4j==0.10.9.7
+
+# Data Processing
+pandas==2.1.4
+numpy==1.24.3
+
+# API and HTTP Requests
+requests==2.31.0
+urllib3==2.1.0
+
+# JSON Processing
+jsonschema==4.20.0
+
+# Logging and Configuration
+python-dotenv==1.0.0
+
+# Development and Testing
+pytest==7.4.3
+pytest-cov==4.1.0
+
+# Data Quality and Validation
+great-expectations==0.18.5
+
+# Apache Airflow
+apache-airflow==2.9.0
+apache-airflow-providers-common-sql==1.7.0
+apache-airflow-providers-postgres==5.6.0
+apache-airflow-providers-http==4.5.0
+
+# Optional: For enhanced data processing
+# delta-spark==2.4.0  # Uncomment if using Delta Lake
+# koalas==1.8.2       # Uncomment if using Koalas for pandas-like operations
+
